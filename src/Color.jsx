@@ -7,7 +7,7 @@ function Color() {
   }
   return (
     <>
-      <div className="p-20 bg-gray-900 w-200 mx-auto mt-20 rounded-3xl">
+      <div className="p-20 bg-gray-900 w-150 h-150 flex flex-col mx-auto mt-10  rounded-3xl">
         <h1 className="text-4xl font-bold text-white text-center">
           Color-Picker-Program
         </h1>
@@ -26,7 +26,7 @@ function Color() {
           <input
             value={color}
             type="color"
-            className="w-20 h-20 ml-8 rounded-2xl border-none"
+            className="w-20 h-20 ml-8 rounded-2xl "
             onChange={changeColor}
           />
         </div>
